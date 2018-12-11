@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "npm run prepare && mocha --require coffeescript/register test/**/*.coffee",
     "prepare": "coffee -c index.coffee"
